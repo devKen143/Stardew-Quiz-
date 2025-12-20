@@ -49,6 +49,12 @@ const que = [
         options: ['Barn', 'Coop', 'Shed', 'Greenhouse'],
         answer: 0  
     }
+
+    {
+       Q: 'Where is the fishimg hut located ata'}
+       options: ['beach, 'shore', 'cave', 'farm']
+       answer: 1
+    }
 ];
 
 
@@ -126,5 +132,6 @@ if (restartBtn) {
         showQuestion();
     };
 }
+
 
 showQuestion();
